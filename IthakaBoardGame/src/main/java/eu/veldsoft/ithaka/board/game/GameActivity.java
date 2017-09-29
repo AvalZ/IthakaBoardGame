@@ -317,6 +317,9 @@ public class GameActivity extends Activity {
 					  getResources().getString(R.string.game_over_message),
 					  Toast.LENGTH_LONG).show();
 
+			Intent intent = new Intent(this, SplashActivity.class);
+			startActivity(intent);
+
 			/*
 			 * Play game over sound.
 			 */
